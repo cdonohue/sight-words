@@ -1,0 +1,23 @@
+{
+  "name": "sight-words",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "emotion": "^9.2.8",
+    "emotion-server": "^9.2.8",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-dom-confetti": "^0.0.10",
+    "react-emotion": "^9.2.8",
+    "react-feather": "^1.1.3"
+  },
+  "author": "Chad Donohue <chad.donohue@gmail.com>",
+  "repository": "https://github.com/cdonohue/sight-words"
+}
