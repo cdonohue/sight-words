@@ -1,5 +1,5 @@
 import { css } from "@emotion/core"
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 
 const boxStyles = css`
   padding: var(--metric-space);

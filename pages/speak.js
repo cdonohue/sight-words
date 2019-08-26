@@ -1,17 +1,12 @@
 import { css, keyframes } from "@emotion/core"
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 
 import Card, { CardFooter } from "../components/Card"
 import Box from "../components/Box"
 import { buttonStyles } from "../components/Button"
 import Confetti from "react-dom-confetti"
 
-import {
-  Mic,
-  Radio,
-  RefreshCcw,
-  AlertTriangle,
-} from "react-feather"
+import { Mic, Radio, RefreshCcw, AlertTriangle } from "react-feather"
 
 const sightWords = [
   "no",

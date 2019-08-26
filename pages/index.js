@@ -1,9 +1,8 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 import Link from "next/link"
 
 import Card from "../components/Card"
 import Box from "../components/Box"
-import { Chrome } from "react-feather"
 
 const Disclaimer = styled.div`
   background: #f4f6fa;

@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.15",
-    "@emotion/styled": "^10.0.15",
+    "@emotion/styled": "10.0.15",
     "next": "9.0.5",
     "react": "16.9.0",
     "react-dom": "16.9.0",
@@ -20,6 +20,6 @@
   "author": "Chad Donohue <chad.donohue@gmail.com>",
   "repository": "https://github.com/cdonohue/sight-words",
   "devDependencies": {
-    "babel-plugin-emotion": "^10.0.16"
+    "babel-plugin-emotion": "10.0.16"
   }
 }

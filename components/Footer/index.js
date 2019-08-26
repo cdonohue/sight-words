@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 import { Container } from "../Box"
 import { Twitter, GitHub } from "react-feather"
 

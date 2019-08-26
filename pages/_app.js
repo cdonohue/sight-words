@@ -1,6 +1,6 @@
 import App, { Container } from "next/app"
 import { Global, css } from "@emotion/core"
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
@@ -18,9 +18,9 @@ const globalStyles = css`
     --color-coral: #f08080;
 
     --color-navy: #193958;
-    --color-red: #D5545B;
-    --color-light-blue: #269ADB;
-    --color-dark-blue: #0A2642;
+    --color-red: #d5545b;
+    --color-light-blue: #269adb;
+    --color-dark-blue: #0a2642;
 
     --color-primary: #6580be;
     --color-secondary: var(--color-light-blue);
@@ -49,7 +49,7 @@ const globalStyles = css`
       Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
       "Segoe UI Symbol";
 
-    --metric-transition-bezier: cubic-bezier(.55,0,.1,1);
+    --metric-transition-bezier: cubic-bezier(0.55, 0, 0.1, 1);
   }
 
   html {
@@ -77,7 +77,7 @@ const globalStyles = css`
     margin: 0;
     font-size: 1rem;
     background-color: #f2f4f8;
-background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%236580be' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%236580be' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
   }
 
   h1,
@@ -128,7 +128,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox=
 
     svg {
       width: 12px;
-      margin: 0 .3rem;
+      margin: 0 0.3rem;
     }
   }
 

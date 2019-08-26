@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import styled from "@emotion/styled"
 import Link from "./Link"
 
 import { Headphones, MessageCircle } from "react-feather"
