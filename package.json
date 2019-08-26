@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@emotion/core": "10.0.15",
