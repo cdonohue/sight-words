@@ -68,7 +68,7 @@ export default function() {
       <br />
       <p>
         For those interested in how this was made, please go check out the{" "}
-        <a target="_blank" href="https://www.github.com/cdonohue">
+        <a target="_blank" href="https://github.com/cdonohue/sight-words">
           source code
         </a>{" "}
         on GitHub.
