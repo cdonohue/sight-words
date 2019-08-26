@@ -1,8 +1,7 @@
-import styled from "react-emotion"
+import styled from '@emotion/styled'
 import Link from "./Link"
 
-import { Container } from "../Box"
-import { Headphones, Mic, MessageCircle, Home } from "react-feather"
+import { Headphones, MessageCircle } from "react-feather"
 
 const Wrapper = styled.header`
   background: #6580be;

@@ -1,8 +1,4 @@
-import styled from "react-emotion"
-import { css } from "emotion"
-
-import Card from "../components/Card"
-import Box from "../components/Box"
+import styled from '@emotion/styled'
 import Button from "../components/Button"
 
 const sightWords = [

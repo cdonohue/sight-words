@@ -1,6 +1,6 @@
-import styled from "react-emotion"
+import styled from '@emotion/styled'
 import { Container } from "../Box"
-import { Twitter, Github } from "react-feather"
+import { Twitter, GitHub } from "react-feather"
 
 const Wrapper = styled.footer`
   background: #f2f4f8;
@@ -56,7 +56,7 @@ export default function(props) {
             <Twitter />
           </SocialLink>
           <SocialLink hoverColor="#333" href="https://github.com/cdonohue">
-            <Github />
+            <GitHub />
           </SocialLink>
         </SocialLinks>
       </Container>

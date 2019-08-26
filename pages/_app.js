@@ -1,10 +1,10 @@
 import App, { Container } from "next/app"
-import { injectGlobal } from "emotion"
-import styled from "react-emotion"
+import { Global, css } from "@emotion/core"
+import styled from '@emotion/styled'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
-injectGlobal`
+const globalStyles = css`
   :root {
     --color-black: #252630;
     --color-charcoal: #444444;
@@ -167,6 +167,7 @@ export default class SightWordsApp extends App {
 
     return (
       <Container>
+        <Global styles={globalStyles} />
         <Header />
         <Page>
           <Column>

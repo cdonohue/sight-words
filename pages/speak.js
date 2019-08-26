@@ -1,19 +1,14 @@
-import styled from "react-emotion"
-import { css, keyframes } from "emotion"
+import { css, keyframes } from "@emotion/core"
+import styled from '@emotion/styled'
 
 import Card, { CardFooter } from "../components/Card"
 import Box from "../components/Box"
-import Button, { buttonStyles } from "../components/Button"
+import { buttonStyles } from "../components/Button"
 import Confetti from "react-dom-confetti"
 
 import {
   Mic,
-  Loader,
-  Circle,
-  Check,
-  ArrowRight,
   Radio,
-  MessageSquare,
   RefreshCcw,
   AlertTriangle,
 } from "react-feather"

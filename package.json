@@ -9,15 +9,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "emotion": "^9.2.8",
-    "emotion-server": "^9.2.8",
-    "next": "^6.1.1",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-dom-confetti": "^0.0.10",
-    "react-emotion": "^9.2.8",
-    "react-feather": "^1.1.3"
+    "@emotion/core": "10.0.15",
+    "@emotion/styled": "^10.0.15",
+    "next": "9.0.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-dom-confetti": "0.1.1",
+    "react-feather": "2.0.3"
   },
   "author": "Chad Donohue <chad.donohue@gmail.com>",
-  "repository": "https://github.com/cdonohue/sight-words"
+  "repository": "https://github.com/cdonohue/sight-words",
+  "devDependencies": {
+    "babel-plugin-emotion": "^10.0.16"
+  }
 }
